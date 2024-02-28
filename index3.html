@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Assignment Qu. 3 </title>
+</head>
+<style>
+    *{
+        margin: 3px;
+        padding: 0;
+    }
+    .black{
+        border: 1.5px solid #000000;
+        border-radius: 5px;
+        }
+      #FirstName{
+        background-color: #00ff00;
+      }  
+      #MiddleName{
+        background-color: #00ffff;
+      }  
+      #LastName{
+        background-color: #00ff;
+      }  
+      #EmailAddress{
+        background: rgba(255, 00,00, 0.5);
+      }  
+      #content{
+        background: rgba(255, 255,00, 0.8);
+      }  
+      #FirstName{
+        background-color: #00ff00;
+      }  
+      #FirstName{
+        background-color: #00ff00;
+      }  
+      
+</style>
+
+<body>
+    <h3>Question 3</h3>
+    <p>Develop an HTML form with various input elements. Use CSS to style the form, including setting background colors
+        for input fields. Create a custom color palette for the form elements, and demonstrate how to apply opacity to
+        one of the form sections </p>
+
+    <form action="">
+        <label for="FirstName">FirstName:
+            <input type="text" name="FirstName" placeholder="Sandeep" class="black" id="FirstName" required
+                minlenght=3 max=20 />
+            <br>
+            <label for="">
+                <label for="MiddleName">MiddleName:
+                    <input type="text" name="MiddleName" placeholder="Kumar" class="black" id="MiddleName" required
+                        milength=3 max=20 />
+                </label>
+                <br>
+                <label for="LastName">LastName:
+                    <input type="text" name="LastName" id="LastName" class="black" placeholder="Sahu" required
+                        minlength=3 max=20 />
+                </label>
+                <br>
+                <label for="EmailAddress">EmailAddress:
+                    <input type="text" name="EmailAddress" id="EmailAddress" class="black"
+                        placeholder="sahu@gmail.com" required minlength=3 max=20 />
+                </label>
+                <br>
+                <label for="Password">Password:
+                    <input type="text" name="Password" id="Password" class="black" placeholder="*************"
+                        required minlength=3 max=20 />
+                </label>
+                <br>
+                <label for="ConfirmPassword">ConfirmPassword:
+                    <input type="text" name="ConfirmPassword" id="content" class="blackd"
+                        placeholder="**************" required minlength=3 max=20 />
+                </label>
+                <br>
+                <label for="age">Age:
+                    <input type="text" name="Age" id="Age" class="black" placeholder="20" required min=0 max=150 />
+                </label>
+                <br>
+                <label for="">Gender:
+                    <label for="">Male:
+                        <input type="radio" name="Male" id="Male" class="black" checked />
+                        <label for="">Femail:
+                            <input type="radio" name="Femail" id="Femail" class="black"
+                             />
+                            <label for="">Other:
+                                <input type="radio" name="Other" id="Other" class="black"
+                                   />
+                            </label>
+                </label>
+                <br>
+                <label for="">Term:
+                    <input type="checkbox" name="Term" id="Term" class="black"
+                 /> , I agry
+                 <br>
+                 <button id="button" class="black">Sumit</button>
+            
+    </form>
+</body>
+
+</html>
